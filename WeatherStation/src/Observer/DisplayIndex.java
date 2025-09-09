@@ -6,15 +6,15 @@ public class DisplayIndex implements Observer, DisplayElement{
     private float HI; // Heat Index
     private WeatherStation weatherStation;
     
-    private static final double C1 = -8.78469475556;
-    private static final double C2 = 1.61139411;
-    private static final double C3 = 2.33854883889;
-    private static final double C4 = -0.14611605;
-    private static final double C5 = -0.012308094;
-    private static final double C6 = -0.0164248277778;
-    private static final double C7 = 2.211732e-3;
-    private static final double C8 = 7.2546e-4;
-    private static final double C9 = -3.582e-6;
+    private final double C1 = -8.78469475556;
+    private final double C2 = 1.61139411;
+    private final double C3 = 2.33854883889;
+    private final double C4 = -0.14611605;
+    private final double C5 = -0.012308094;
+    private final double C6 = -0.0164248277778;
+    private final double C7 = 2.211732e-3;
+    private final double C8 = 7.2546e-4;
+    private final double C9 = -3.582e-6;
 
     public DisplayIndex(WeatherStation weatherStation) {
         this.weatherStation = weatherStation;

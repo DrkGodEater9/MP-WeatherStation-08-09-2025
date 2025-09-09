@@ -34,7 +34,7 @@ public class WeatherStation implements Subject{
         measurementsChanged();
     }
     
-    private void measurementsChanged() {
+    public void measurementsChanged() {
         notifyObserver();
     }
     
